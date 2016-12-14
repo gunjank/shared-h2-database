@@ -1,0 +1,6 @@
+src
+.gradle
+.mvn
+.settings
+gradle
+target

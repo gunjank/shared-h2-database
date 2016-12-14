@@ -1,0 +1,10 @@
+---
+applications:
+- name: service-db-h2-client 
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git#v3.10
+  memory: 256M
+  disk_quota: 256M
+  instances: 1
+  host: service-db-h2-client
+  path: build/libs/gs-relational-data-access-0.1.0.jar
+  
